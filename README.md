@@ -33,6 +33,13 @@ Finally, run the test suite to verify that everything is working correctly:
 $ rails test
 ```
 
+Run the tests with Guard
+
+```
+$ bundle exec guard init
+$ bundle exec guard
+```
+
 If the test suite passes, you'll be ready to run the app in a local server:
 
 ```
